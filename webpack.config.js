@@ -25,9 +25,15 @@ module.exports = {
     rules:[
       {
         test: /\.js$/,
-        loader: 'babel-loader',
+        // loader: 'babel-loader',
         include: appPath,
-        exclude: modulePath
+        exclude: modulePath,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            "presets": ["@babel/preset-env"]
+          }
+        }
       }
     ]
   },
