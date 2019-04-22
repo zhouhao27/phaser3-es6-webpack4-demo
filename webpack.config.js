@@ -6,6 +6,7 @@ const appPath = path.join(__dirname, './src')
 const modulePath = path.join(__dirname, './node_modules')
 
 module.exports = {
+  devtool: 'source-map',
   entry: {
     bundle: './src/index.js',
     vendor: ['phaser']
