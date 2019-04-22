@@ -74,6 +74,11 @@
 
 │   └── index.js
 
+# Debug in VS Code
+
+Click **Phaser Debug** in VS Code Debug tab. Make sure you run the app first by:
+
+`yarn dev`
 
 # Reference
 
