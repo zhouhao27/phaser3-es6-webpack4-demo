@@ -1,20 +1,22 @@
-# Create project
+# Steps to create this boilerplate
+
+## Create project
 
 `yarn init -y`
 
-# Add Webpack and related package
+## Add Webpack and related package
 
 `yarn add -D webpack webpack-cli webpack-dev-server`
 
-# Add babel
+## Add babel
 
 `yarn add -D @babel/core @babel/preset-env babel-loader`
 
-# Add Webpack plugin
+## Add Webpack plugin
 
 `yarn add -D html-webpack-plugin`
 
-# Add .babelrc
+## Add .babelrc
 
 ```
 {
@@ -22,7 +24,7 @@
 }
 ```
 
-# Create a template index.html in template folder
+## Create a template index.html in template folder
 
 ```
 <!DOCTYPE html>
@@ -39,9 +41,9 @@
 </html>
 ```
 
-# Create config for Webpack `webpack.config.js`
+## Create config for Webpack `webpack.config.js`
 
-# Package.json, add:
+## Package.json, add:
 
 ```
   "scripts": {
@@ -50,11 +52,11 @@
   },
 ```
 
-# Add phaser
+## Add phaser
 
 `yarn add phaser`
 
-# Add source code
+## Add source code
 
 `mkdir src`
 
@@ -73,6 +75,16 @@
 │   ├── Game.js
 
 │   └── index.js
+
+# How to use
+
+```
+git clone https://github.com/zhouhao27/phaser3-es6-webpack4-demo.git <YourProjectName>
+
+cd <YourProjectName>
+
+yarn
+```
 
 # Debug in VS Code
 
