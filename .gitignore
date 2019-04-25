@@ -10,3 +10,7 @@ node_modules/
 ## Files
 npm-debug.log
 yarn-error.log
+
+## Lock file
+yarn.lock
+package-lock.json
